@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+
+${1:list} = []
+with open(${2:file}, 'r') as f:
+	for l in f:
+		${1:list}.append(l.replace("\n", ""))
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>readfile</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

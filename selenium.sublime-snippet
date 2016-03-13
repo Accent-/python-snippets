@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+from selenium import webdriver
+
+profile = webdriver.FirefoxProfile("/home/tabo/.mozilla/firefox/wrhbot21.SELENIUM")
+driver = webdriver.Firefox(profile)
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>start_selenium</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
